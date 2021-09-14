@@ -1,0 +1,9 @@
+[
+    uuid(5fffc108-b685-4027-bb4b-63f73cc066a6),
+    version(1.0)
+]
+interface hello
+{
+    void HelloProc([in, string] unsigned char* pszString);
+    void Shutdown(void);
+}
